@@ -1,0 +1,48 @@
+// Load fonts first
+@require '~assets/fonts/index.styl'
+
+// Load boilerplate.  Had to put normailze in the script section because webpack
+// was having trouble resolving.  I think the .css suffix was the issue.
+@require '~bukwild-stylus-library/boilerplate'
+
+// Set font-sizes so rem values for responsive effects.  Combined with the
+// font() call on `body`, this scales from 20px down to 14px
+:root
+	mq-values(font-size, 100%, 70%, max-w)
+
+// Default fonts styles
+body
+	color black
+	background white
+	font-size 1rem
+	font-family 'Montserrat'
+	line-height normal
+
+.bold
+	font-weight 600
+
+:focus
+	outline none
+
+
+.fade-out-enter-active, .fade-out-leave-active
+	transition opacity 400ms
+
+.fade-out-enter, .fade-out-leave-to
+	opacity 0
+
+.btn
+	background #0e5854
+	color white
+	text-transform uppercase
+	padding 15px rem(30px)
+	letter-spacing 1px
+	display inline-block
+	max-width 350px
+	&:hover
+		opacity 0.7
+		cursor pointer
+		transition opacity 300ms ease
+.grand-font
+	font-family grand
+	text-transform uppercase

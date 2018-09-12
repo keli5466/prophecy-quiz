@@ -1,0 +1,24 @@
+{
+  "name": "prophecy-quiz",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Kelly L <kelly.linehan@bukwild.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "nuxt": "^1.0.0",
+    "vue-slick": "^1.1.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "blamo": "^1.0.2",
+    "dotenv": "^6.0.0"
+  }
+}
