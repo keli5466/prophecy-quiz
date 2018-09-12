@@ -1,0 +1,21 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+yarn-error.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Config
+.env
+
+# robot
+/static/robots.txt
+
+# mac
+.DS_Store
