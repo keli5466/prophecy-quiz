@@ -29,7 +29,7 @@ export default
 .default-layout
 	background light-yellow
 	min-height 100vh
-	padding rem(50px) 10%
+	padding rem(50px) 9% 0
 	display flex
 	flex-direction column
 	@media (max-width mobile)

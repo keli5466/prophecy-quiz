@@ -71,7 +71,7 @@ export default
 	position relative
 	width 62%
 	max-width 440px
-	margin 10vh auto 0
+	margin 7% auto 0
 	font-size rem(25px)
 	justify-content center
 	span
@@ -140,8 +140,10 @@ export default
 			margin rem(30px) auto rem(10px)
 
 #result-image
+	width 45%
+
 .result-content
-	width 50%
+	width 55%
 	text-align center
 
 @keyframes bouncedown
