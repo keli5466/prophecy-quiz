@@ -45,6 +45,8 @@ export default
 	&.show
 		transition opacity 1s ease
 		opacity 1
+		&:hover
+			opacity 0.7
 	@media (max-width mobile)
 		white-space normal
 		padding rem(5px) rem(10px)
