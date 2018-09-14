@@ -15,7 +15,7 @@ The layout header
 		li.step
 		li.step
 		li.step
-	span.startOver(@click='startOver')
+	span.startOver.btn(@click='startOver')
 		| Start Over
 
 </template>
@@ -24,13 +24,6 @@ The layout header
 
 <script lang='coffee'>
 export default
-# 	computed:
-
-# 	components:
-# 	props: []
-# 	data: ->
-# 	computed:
-# 	watch:
 	methods:
 		startOver: ->
 			location.reload()
@@ -41,26 +34,21 @@ export default
 <style lang='stylus' scoped>
 // #274868
 .startOver
+	opacity 0
 	position absolute
 	top -10px
 	left 120%
 	display inline-block
 	white-space nowrap
-	border 2px #0e5854 solid
-	font-weight 600
 	font-size rem(14px)
-	background rgba(#0e5854, 0.8)
-	border-radius 10px
-	color white
-	padding rem(5px) rem(10px)
-	transition all 400ms ease
-	&:hover
-		cursor pointer
-		color black
-		background transparent
+	padding rem(10px) rem(15px)
+	&.show
+		transition opacity 1s ease
+		opacity 1
 	@media (max-width mobile)
 		white-space normal
-
+		padding rem(5px) rem(10px)
+		text-align center
 
 .progress-bar
 	width 50%
@@ -118,8 +106,6 @@ ul
 		@media (max-width mobile)
 			height 8px
 			width 8px
-
-
 
 		&.current
 			background black

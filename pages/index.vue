@@ -54,6 +54,7 @@ export default
 		makeActive: ->
 			$('.active').removeClass('active').next('div').addClass('active');
 			@moveProgress()
+			$('.startOver').addClass('show');
 
 		moveProgress: ->
 			$('.current').removeClass('current').next('.step').addClass('current');
@@ -73,7 +74,7 @@ export default
 	&.active
 		display block
 	@media (min-width mobile)
-		margin-top 10%
+		margin-top 5%
 		margin-h auto
 
 h1
