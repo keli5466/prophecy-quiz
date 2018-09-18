@@ -8,17 +8,17 @@ The layout header
 	slick.slide-nav1(ref='slick1'
 		:options='slickOptions')
 		.slide
-			img.product-img(src='/products/A_bottle.png')
+			img.product-img(src='products/A_bottle.png')
 		.slide
-			img.product-img(src='/products/C_bottle.png')
+			img.product-img(src='products/C_bottle.png')
 		.slide
-			img.product-img(src='/products/B_bottle.png')
+			img.product-img(src='products/B_bottle.png')
 		.slide
-			img.product-img(src='/products/D_bottle.png')
+			img.product-img(src='products/D_bottle.png')
 		.slide
-			img.product-img(src='/products/E_bottle.png')
+			img.product-img(src='products/E_bottle.png')
 		.slide
-			img.product-img(src='/products/F_bottle.png')
+			img.product-img(src='products/F_bottle.png')
 
 	slick.slide-nav2(ref='slick2'
 		:options='slickOptions2')

@@ -11,7 +11,7 @@ The layout header
 		.product-type {{ headline }}
 	.product-prophecy.fade
 		.product-image
-			img(:src="'/results/'+ img")
+			img(:src="'results/'+ img")
 		.product-content
 			.product-wine.bold {{ taste }}
 			.product-copy(v-html='copy') {{ copy }}

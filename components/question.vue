@@ -8,30 +8,30 @@ Homepage
 	.headline-question.grand-font {{ headline }}
 	.question-grid.two-item(v-if='grid')
 		.quiz-answer(@click='$emit("click", true)')
-			img(:src="'/questions/'+ imgA")
+			img(:src="'questions/'+ imgA")
 			span {{a}}
 		.quiz-answer(@click='$emit("click", false)')
-			img(:src="'/questions/'+ imgB")
+			img(:src="'questions/'+ imgB")
 			span {{b}}
 
 	.question-grid(v-else)
 		button.quiz-answer(@click='quiz' data-answer="a" type="button")
-			img(:src="'/questions/'+ imgA")
+			img(:src="'questions/'+ imgA")
 			span {{a}}
 		button.quiz-answer(@click='quiz' data-answer="b" type="button")
-			img(:src="'/questions/'+ imgB")
+			img(:src="'questions/'+ imgB")
 			span {{b}}
 		button.quiz-answer(@click='quiz' data-answer="c" type="button")
-			img(:src="'/questions/'+ imgC")
+			img(:src="'questions/'+ imgC")
 			span {{c}}
 		button.quiz-answer(@click='quiz' data-answer="d" type="button")
-			img(:src="'/questions/'+ imgD")
+			img(:src="'questions/'+ imgD")
 			span {{d}}
 		button.quiz-answer(@click='quiz' data-answer="e" type="button")
-			img(:src="'/questions/'+ imgE")
+			img(:src="'questions/'+ imgE")
 			span {{e}}
 		button.quiz-answer(@click='quiz' data-answer="f" type="button")
-			img(:src="'/questions/'+ imgF")
+			img(:src="'questions/'+ imgF")
 			span {{f}}
 
 </template>
