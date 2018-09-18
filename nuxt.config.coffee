@@ -22,6 +22,9 @@ module.exports =
 		'~/assets/app.styl'
 		'~/node_modules/slick-carousel/slick/slick.css'
 	]
+	router: {
+		base: process.env.NODE_ENV === 'dev' ? '/' : '/quiz/'
+	},
 	plugins: [
 		'~/plugins/slick'
 
