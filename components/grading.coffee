@@ -38,7 +38,7 @@ export default [
 	{
 		score: 'b'
 		quiztype: 'The Goddess of Fortune'
-		image: 'results/goddess_of_fortune.jpg'
+		image: 'results/GODDESS_OF_FORTUNE.jpg'
 		href: 'http://www.prophecywines.com/#purchase'
 		wine: 'ROSÉ  |  Strawberries, Raspberries, Hint of peach'
 		copy: '<p>You’re lucky like the Goddess of Fortune! <br>You move swiftly from one event to the next, always making the most of whatever happenings life throws your way.</p><p>The Goddess of Fortune appears clearly amidst billowy clouds, calling to mind the cool, crisp style of a French Rosé. Her delicate pink garment alludes to the soft but powerful flavor of strawberries and raspberries, and her flowing peach locks hint at a tinge of stone fruit.</p><p>This rosé gets along with any kind of plate or person imaginable, and will bring plenty of prosperity to your next weekend brunch or outdoor party.</p>'
@@ -47,7 +47,7 @@ export default [
 	{
 		score: 'a'
 		quiztype: 'The High Priestess'
-		image: 'results/high_priestess.jpg'
+		image: 'results/HIGH_PRIESTESS.jpg'
 		href: 'http://www.prophecywines.com/#purchase'
 		wine: 'SAUVIGNON BLANC |  Grapefruit, Citrus, Pineapple'
 		copy: '<p>You’re wise like the High Priestess!<br>You’re intuitive, trust your gut, and bring a refreshing attitude to everyday circumstances.</p><p>The High Priestess inspires creativity wherever she goes, helping us craft an expressive wine full of tropical aromas. Her flowing robes represent delicate layers, peeling back to reveal even deeper flavors, a captivating style of winemaking and a staple of the Marlborough region.</p><p>Gift your hostess with a bottle of Sauvignon Blanc during appetizer hour, or enjoy a glass while reflecting on the world around you.</p>'
