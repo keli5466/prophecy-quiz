@@ -75,6 +75,7 @@ export default
 		display block
 	@media (min-width mobile)
 		margin-top 5%
+		margin-bottom 1%
 		margin-h auto
 
 h1

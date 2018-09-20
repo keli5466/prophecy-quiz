@@ -71,7 +71,7 @@ export default
 	position relative
 	width 62%
 	max-width 440px
-	margin 7% auto 0
+	margin 5% auto 5px
 	font-size rem(25px)
 	justify-content center
 	span

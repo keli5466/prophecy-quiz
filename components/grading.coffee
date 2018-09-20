@@ -2,7 +2,7 @@ export default [
 	{
 		score: 'f'
 		quiztype: 'The Lovers'
-		image: 'results/lovers.jpg'
+		image: 'results/LOVERS.jpg'
 		href: 'http://www.prophecywines.com/#purchase'
 		wine: 'RED BLEND  |  Red fruit, Spice, Vanilla'
 		copy: '<p>You’re charming like The Lovers!<br>You have many sides to your personality and they all come together in one perfect balance, despite all odds.</p><p>The lovers’ clasped hands show commitment to one another…and the harmonious blend of Washington and California fruits. Deep crimson sunset hues and fruiting trees emphasize passionate flavors like dark cherry, raspberry, and blackberry. </p><p>This wine is best shared with someone you care about — think romantic, starry-eyed evening. So pop open a bottle and get ready to fall in love.</p>'
@@ -11,7 +11,7 @@ export default [
 	{
 		score: 'e'
 		quiztype: 'The Star'
-		image: 'results/star.jpg'
+		image: 'results/STAR.jpg'
 		href: 'http://www.prophecywines.com/#purchase'
 		wine: 'PINOT GRIGIO  |  Light citrus, Tropical fruit, Mineral'
 		copy: '<p>You sparkle like The Star!<br>You operate on a higher level and shine with a special light that attracts people of all kinds</p><p>Twinkling lights up above call to mind the high altitudes of Italy’s delle Venezie region, where this wine’s grapes wait to devote their gifts to a bottle that pairs well with just about any meal. The flowing water at her feet represents the cool, refreshing characteristics of this Pinot Grigio. </p><p>We recommend pouring a glass when they want to slow things down and experience a little bit of heavenly rejuvenation.</p>'
@@ -20,7 +20,7 @@ export default [
 	{
 		score: 'd'
 		quiztype: 'The Traveler'
-		image: 'results/traveler.jpg'
+		image: 'results/TRAVELER.jpg'
 		href: 'http://www.prophecywines.com/#purchase'
 		wine: 'PINOT NOIR  |  Toasted oak, Ripe raspberry, Brown spice'
 		copy: '<p>You’re adventurous like The Traveler!<br>You’re always on the go and constantly looking for new people, places, things, and adventures to enjoy.</p><p>The Traveler’s feisty spirit mimics the vibrant fruit from premiere California vineyards, used to make the finest of red wines. His ornate red clothing represents a plush, elegant taste - in wine and fashion. He delights all whom he greets along the way, and can’t help but draw a crowd.</p><p>This Pinot Noir delights the senses, and charms guests at dinner parties and date nights alike.</p>'
@@ -29,7 +29,7 @@ export default [
 	{
 		score: 'c'
 		quiztype: 'The Emperor'
-		image: 'results/emperor.jpg'
+		image: 'results/EMPEROR.jpg'
 		href: 'http://www.prophecywines.com/#purchase'
 		wine: 'CABERNET SAUVIGNON  |  Blackberry, Plum, Oaky notes of graham cracker'
 		copy: '<p>You rule like the Emperor!<br>You’re a pillar of strength amongst family and friends,and an obvious natural leader to anyone you meet.</p><p>Come experience the king of wines - a bold ruler with a passion and energy for life that lights up any chamber. Pour a glass and let rich flavor, deep color, and full experiences abound. The Emperor’s crimson robes represent the expressive dark fruit flavors of blackberry, plum, and raspberry found in this California Cabernet.</p><p>Enjoy this wine while holding court, or pair it with a celebratory dinner.</p>'
