@@ -28,7 +28,7 @@ module.exports =
 	
 	plugins: [
 		'~/plugins/slick'
-
+		{ src: '~/plugins/age-gate', ssr: false }
 	]
 
 	# Nuxt modules
